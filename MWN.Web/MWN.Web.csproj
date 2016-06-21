@@ -275,7 +275,7 @@
       <Project>{E8466E9D-5B64-4052-B0D2-69075E15B099}</Project>
       <Name>MWN.Ninject</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MVN.Data\MVN.Data.csproj">
+    <ProjectReference Include="..\MWN.Data\MWN.Data.csproj">
       <Project>{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}</Project>
       <Name>MVN.Data</Name>
     </ProjectReference>

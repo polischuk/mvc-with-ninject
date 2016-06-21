@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWN.Web", "MWN.Web\MWN.Web.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWN.Ninject", "MWN.Ninject\MWN.Ninject.csproj", "{E8466E9D-5B64-4052-B0D2-69075E15B099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVN.Data", "MVN.Data\MVN.Data.csproj", "{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWN.Data", "MWN.Data\MWN.Data.csproj", "{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
