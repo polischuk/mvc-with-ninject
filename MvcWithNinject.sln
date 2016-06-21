@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWN.Web", "MvcWithNinject\MWN.Web.csproj", "{3A36D45D-5A3F-45B8-86C5-C4D5B50688F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MWN.Ninject", "..\MWN.Ninject\MWN.Ninject.csproj", "{E8466E9D-5B64-4052-B0D2-69075E15B099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVN.Data", "MVN.Data\MVN.Data.csproj", "{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A36D45D-5A3F-45B8-86C5-C4D5B50688F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A36D45D-5A3F-45B8-86C5-C4D5B50688F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A36D45D-5A3F-45B8-86C5-C4D5B50688F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A36D45D-5A3F-45B8-86C5-C4D5B50688F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8466E9D-5B64-4052-B0D2-69075E15B099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8466E9D-5B64-4052-B0D2-69075E15B099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8466E9D-5B64-4052-B0D2-69075E15B099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8466E9D-5B64-4052-B0D2-69075E15B099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B4820F-F5E5-49EB-8C51-1BB8E3B97F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
