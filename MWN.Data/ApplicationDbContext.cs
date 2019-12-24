@@ -10,6 +10,8 @@ namespace MWN.Data
         {
         }
 
+        public DbSet<Hobby> Hobbies { get; set; }
+
         static ApplicationDbContext()
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, ApplicationDbInitializer>());

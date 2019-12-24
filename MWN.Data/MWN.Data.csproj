@@ -114,11 +114,16 @@
     <Compile Include="ApplicationDbInitializer.cs" />
     <Compile Include="Entities\ApplicationUser.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\Hobby.cs" />
     <Compile Include="Managers\ApplicationRoleManager.cs" />
     <Compile Include="Managers\ApplicationUserManager.cs" />
     <Compile Include="Migrations\201606211251158_Initial_Migration.cs" />
     <Compile Include="Migrations\201606211251158_Initial_Migration.Designer.cs">
       <DependentUpon>201606211251158_Initial_Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912241154205_AddHobbies.cs" />
+    <Compile Include="Migrations\201912241154205_AddHobbies.Designer.cs">
+      <DependentUpon>201912241154205_AddHobbies.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -129,6 +134,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606211251158_Initial_Migration.resx">
       <DependentUpon>201606211251158_Initial_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912241154205_AddHobbies.resx">
+      <DependentUpon>201912241154205_AddHobbies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

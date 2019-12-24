@@ -47,6 +47,29 @@ namespace MWN.Data
                     context.Roles.Add(identityRole);
                 }
             }
+
+            var hobbies = new List<Hobby>
+            {
+                new Hobby
+                {
+                    Name = "Танцы"
+                },
+                new Hobby
+                {
+                    Name = "Рисование"
+                }
+            };
+
+            context.Hobbies.AddRange(hobbies);
+
+            var user = new ApplicationUser
+            {
+                UserName = "test@test.com",
+                Email = "test@test.com",
+                Hobbies = hobbies
+            };
+            userManager.Create(user, "123456");
+
             base.Seed(context);
         }
     }
